@@ -1,0 +1,99 @@
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+[Bb]ee/
+[Uu]serSettings/
+
+Assets/Packages
+Assets/Packages/*
+Packages
+Packages/*
+
+# Unity auto-generated VS/JetBrains Rider project files
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+*.pidb.meta
+
+# Unity3D generated meta files
+*.pidb.meta
+
+# Unity3D generated file on crash reports
+sysinfo.txt
+
+# Builds
+*.apk
+*.aab
+*.unitypackage
+*.app
+*.exe
+*.dll
+*.dmg
+*.ipa
+*.xcodeproj
+*.xcworkspace
+*.xcuserstate
+*.xcuserdata
+*.xcuserdatad
+*.xcsettings
+*.xcconfig
+*.xcfilelist
+*.xcscmblueprint
+*.xcworkspacedata
+*.xcuserstate
+*.xcuserdatad
+*.xcsettings
+*.xcconfig
+*.xcfilelist
+*.xcscmblueprint
+*.xcworkspacedata
+
+# Crashlytics generated file
+crashlytics-build.properties
+
+# Collaborate ignore
+.collabignore
+
+# Rider
+.idea/
+*.sln.iml
+
+# Visual Studio Code
+.vscode/
+
+# Mac OS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Other
+*.swp
+*.tmp
+*.bak
+*.old
+*.orig
+
+# Uncomment this line if you wish to ignore the asset store tools plugin
+# [Aa]ssets/AssetStoreTools*
+
+# Keep these folders (do not ignore)
+!/[Aa]ssets/
+!/[Pp]rojectSettings/
+!/[Pp]ackages/ 
