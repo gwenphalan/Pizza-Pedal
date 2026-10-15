@@ -1,0 +1,23 @@
+{
+"type": "FeatureCollection",
+"name": "streets_simple_intersections_grid_aligned",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+    // 4-Way Intersection at (0,0). All segments are 49 units long (7 tiles).
+    { "type": "Feature", "properties": { "Street Name": "North Road", "sidewalk": true, "oneWay": false, "laneCount": 2 }, "geometry": { "type": "LineString", "coordinates": [ [ 0, 0 ], [ 0, 49 ] ] } },
+    { "type": "Feature", "properties": { "Street Name": "East Road", "sidewalk": true, "oneWay": false, "laneCount": 2 }, "geometry": { "type": "LineString", "coordinates": [ [ 0, 0 ], [ 49, 0 ] ] } },
+    { "type": "Feature", "properties": { "Street Name": "South Road", "sidewalk": true, "oneWay": true, "laneCount": 1 }, "geometry": { "type": "LineString", "coordinates": [ [ 0, 0 ], [ 0, -49 ] ] } },
+    { "type": "Feature", "properties": { "Street Name": "West Road", "sidewalk": false, "oneWay": false, "laneCount": 2 }, "geometry": { "type": "LineString", "coordinates": [ [ 0, 0 ], [ -49, 0 ] ] } },
+    
+    // T-Junction at (49, 49). All segments are 49 or 98 units long.
+    { "type": "Feature", "properties": { "Street Name": "Main Drag West", "sidewalk": true, "oneWay": false, "laneCount": 2 }, "geometry": { "type": "LineString", "coordinates": [ [ 0, 49 ], [ 49, 49 ] ] } },
+    { "type": "Feature", "properties": { "Street Name": "Main Drag East", "sidewalk": true, "oneWay": true, "laneCount": 2 }, "geometry": { "type": "LineString", "coordinates": [ [ 49, 49 ], [ 98, 49 ] ] } },
+    { "type": "Feature", "properties": { "Street Name": "Side Alley", "sidewalk": false, "oneWay": true, "laneCount": 1 }, "geometry": { "type": "LineString", "coordinates": [ [ 49, 49 ], [ 49, 98 ] ] } },
+
+    // Bend (2-Way Intersection) at (-49, 49).
+    { "type": "Feature", "properties": { "Street Name": "Corner Street", "sidewalk": true, "oneWay": false, "laneCount": 2 }, "geometry": { "type": "LineString", "coordinates": [ [ -49, 0 ], [ -49, 49 ], [ 0, 49 ] ] } },
+
+    // Dead End (1-Way Intersection) at (-49, -49).
+    { "type": "Feature", "properties": { "Street Name": "Dead End Way", "sidewalk": false, "oneWay": true, "laneCount": 1 }, "geometry": { "type": "LineString", "coordinates": [ [ 0, -49 ], [ -49, -49 ] ] } }
+]
+} 

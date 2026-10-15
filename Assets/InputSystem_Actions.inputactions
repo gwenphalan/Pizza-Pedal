@@ -130,6 +130,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Hop",
+                    "type": "Button",
+                    "id": "a1b2c3d4-e5f6-4a9b-8c7d-6e5f4d3c2b1a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -603,6 +612,28 @@
                     "processors": "",
                     "groups": "",
                     "action": "DragView",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "162c9c5e-8e6a-4ef4-b3f8-589ad8f3b092",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "Hop",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2a0e4171-8403-4b68-8d2b-65c84a4a8217",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "Hop",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
@@ -1119,6 +1150,34 @@
                     "processors": "",
                     "groups": "XR",
                     "action": "TrackedDeviceOrientation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Debug",
+            "id": "2c833d68-5288-4b25-b44c-e160a0a5b81a",
+            "actions": [
+                {
+                    "name": "ToggleDebugUI",
+                    "type": "Button",
+                    "id": "a9d18c35-2358-45a7-96a1-3e4b7b3b2a0c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d8b27c24-1247-49b6-8e5a-4c2b1a0d9e8f",
+                    "path": "<Keyboard>/f3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "ToggleDebugUI",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

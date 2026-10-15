@@ -1,0 +1,1198 @@
+{
+"type": "FeatureCollection",
+"name": "streets",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+"features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 1,
+                "Street Name": "Oak Street",
+                "oneWay": true,
+                "laneCount": 1,
+                "sidewalk": true
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -280.0,
+                        140.0
+                    ],
+                    [
+                        -280.0,
+                        77.0
+                    ],
+                    [
+                        -224.0,
+                        77.0
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 2,
+                "Street Name": "Chestnut Road",
+                "oneWay": true,
+                "laneCount": 1,
+                "sidewalk": true
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -224.0,
+                        0.0
+                    ],
+                    [
+                        -329.0,
+                        0.0
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 3,
+                "Street Name": "Hickory Trail",
+                "oneWay": true,
+                "laneCount": 1,
+                "sidewalk": true
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -224.0,
+                        -77.0
+                    ],
+                    [
+                        -280.0,
+                        -77.0
+                    ],
+                    [
+                        -280.0,
+                        -140.0
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 4,
+                "Street Name": "Sequoia Pass",
+                "oneWay": true,
+                "laneCount": 1,
+                "sidewalk": true
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -0.0,
+                        140.0
+                    ],
+                    [
+                        -0.0,
+                        189.0
+                    ],
+                    [
+                        0.0,
+                        245.0
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 5,
+                "Street Name": "Aspen Boulevard",
+                "oneWay": true,
+                "laneCount": 1,
+                "sidewalk": true
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -0.0,
+                        189.0
+                    ],
+                    [
+                        -175.0,
+                        189.0
+                    ],
+                    [
+                        -175.0,
+                        245.0
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 6,
+                "Street Name": "Pine Court",
+                "oneWay": true,
+                "laneCount": 1,
+                "sidewalk": true
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        112.0,
+                        245.0
+                    ],
+                    [
+                        112.0,
+                        140.0
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 7,
+                "Street Name": "Meadow View",
+                "oneWay": true,
+                "laneCount": 1,
+                "sidewalk": true
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        273.0,
+                        140.0
+                    ],
+                    [
+                        273.0,
+                        0.0
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 8,
+                "Street Name": "Sunset Way",
+                "oneWay": true,
+                "laneCount": 1,
+                "sidewalk": true
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        224.0,
+                        -70.0
+                    ],
+                    [
+                        329.0,
+                        -70.0
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 9,
+                "Street Name": "Sunrise Court",
+                "oneWay": true,
+                "laneCount": 1,
+                "sidewalk": true
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        224.0,
+                        0.0
+                    ],
+                    [
+                        273.0,
+                        0.0
+                    ],
+                    [
+                        329.0,
+                        -0.0
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 10,
+                "Street Name": "Forge Lane",
+                "oneWay": true,
+                "laneCount": 1,
+                "sidewalk": true
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        56.0,
+                        -140.0
+                    ],
+                    [
+                        56.0,
+                        -196.0
+                    ],
+                    [
+                        154.0,
+                        -196.0
+                    ],
+                    [
+                        154.0,
+                        -245.0
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 11,
+                "Street Name": "Dockside Court",
+                "oneWay": true,
+                "laneCount": 1,
+                "sidewalk": true
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -56.0,
+                        -140.0
+                    ],
+                    [
+                        -56.0,
+                        -196.0
+                    ],
+                    [
+                        -154.0,
+                        -196.0
+                    ],
+                    [
+                        -154.0,
+                        -245.0
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 12,
+                "Street Name": "Vista Terrace",
+                "oneWay": true,
+                "laneCount": 1,
+                "sidewalk": true
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        0.0,
+                        -140.0
+                    ],
+                    [
+                        -0.0,
+                        -245.0
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 13,
+                "Street Name": "Sage Court",
+                "oneWay": true,
+                "laneCount": 1,
+                "sidewalk": true
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -168.0,
+                        28.0
+                    ],
+                    [
+                        -168.0,
+                        84.0
+                    ],
+                    [
+                        -112.0,
+                        84.0
+                    ],
+                    [
+                        -112.0,
+                        112.0
+                    ],
+                    [
+                        -56.0,
+                        112.0
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 14,
+                "Street Name": "Orchard Avenue",
+                "oneWay": true,
+                "laneCount": 1,
+                "sidewalk": true
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        56.0,
+                        112.0
+                    ],
+                    [
+                        112.0,
+                        112.0
+                    ],
+                    [
+                        112.0,
+                        84.0
+                    ],
+                    [
+                        168.0,
+                        84.0
+                    ],
+                    [
+                        168.0,
+                        28.0
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 15,
+                "Street Name": "Elmwood Drive",
+                "oneWay": true,
+                "laneCount": 1,
+                "sidewalk": true
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        168.0,
+                        -28.0
+                    ],
+                    [
+                        168.0,
+                        -84.0
+                    ],
+                    [
+                        112.0,
+                        -84.0
+                    ],
+                    [
+                        112.0,
+                        -112.0
+                    ],
+                    [
+                        56.0,
+                        -112.0
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 16,
+                "Street Name": "Houston Street",
+                "oneWay": true,
+                "laneCount": 1,
+                "sidewalk": true
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -56.0,
+                        -112.0
+                    ],
+                    [
+                        -112.0,
+                        -112.0
+                    ],
+                    [
+                        -112.0,
+                        -84.0
+                    ],
+                    [
+                        -168.0,
+                        -84.0
+                    ],
+                    [
+                        -168.0,
+                        -28.0
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 17,
+                "Street Name": "Quarry Road",
+                "oneWay": true,
+                "laneCount": 1,
+                "sidewalk": true
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        0.0,
+                        -84.0
+                    ],
+                    [
+                        0.0,
+                        -28.0
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 18,
+                "Street Name": "Mariners Lane",
+                "oneWay": true,
+                "laneCount": 1,
+                "sidewalk": true
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -0.0,
+                        84.0
+                    ],
+                    [
+                        0.0,
+                        28.0
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 19,
+                "Street Name": "Compass Road",
+                "oneWay": true,
+                "laneCount": 1,
+                "sidewalk": true
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -112.0,
+                        0.0
+                    ],
+                    [
+                        -56.0,
+                        -0.0
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 20,
+                "Street Name": "Pilgrim Path",
+                "oneWay": true,
+                "laneCount": 1,
+                "sidewalk": true
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        56.0,
+                        0.0
+                    ],
+                    [
+                        112.0,
+                        0.0
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 21,
+                "Street Name": "N Park Loop",
+                "oneWay": true,
+                "laneCount": 1,
+                "sidewalk": true
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -56.0,
+                        -0.0
+                    ],
+                    [
+                        -56.0,
+                        28.0
+                    ],
+                    [
+                        0.0,
+                        28.0
+                    ],
+                    [
+                        56.0,
+                        28.0
+                    ],
+                    [
+                        56.0,
+                        0.0
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 22,
+                "Street Name": "S Park Loop",
+                "oneWay": true,
+                "laneCount": 1,
+                "sidewalk": true
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        56.0,
+                        0.0
+                    ],
+                    [
+                        56.0,
+                        -28.0
+                    ],
+                    [
+                        0.0,
+                        -28.0
+                    ],
+                    [
+                        -56.0,
+                        -28.0
+                    ],
+                    [
+                        -56.0,
+                        -0.0
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 23,
+                "Street Name": "Birchwood Terrace",
+                "oneWay": true,
+                "laneCount": 1,
+                "sidewalk": true
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        224.0,
+                        28.0
+                    ],
+                    [
+                        168.0,
+                        28.0
+                    ],
+                    [
+                        112.0,
+                        28.0
+                    ],
+                    [
+                        112.0,
+                        0.0
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 24,
+                "Street Name": "Maplewood Way",
+                "oneWay": true,
+                "laneCount": 1,
+                "sidewalk": true
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        112.0,
+                        0.0
+                    ],
+                    [
+                        112.0,
+                        -28.0
+                    ],
+                    [
+                        168.0,
+                        -28.0
+                    ],
+                    [
+                        224.0,
+                        -28.0
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 25,
+                "Street Name": "Holly Street",
+                "oneWay": true,
+                "laneCount": 1,
+                "sidewalk": true
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -112.0,
+                        0.0
+                    ],
+                    [
+                        -112.0,
+                        28.0
+                    ],
+                    [
+                        -168.0,
+                        28.0
+                    ],
+                    [
+                        -224.0,
+                        28.0
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 26,
+                "Street Name": "Laurel Lane",
+                "oneWay": true,
+                "laneCount": 1,
+                "sidewalk": true
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -112.0,
+                        0.0
+                    ],
+                    [
+                        -112.0,
+                        -28.0
+                    ],
+                    [
+                        -168.0,
+                        -28.0
+                    ],
+                    [
+                        -224.0,
+                        -28.0
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 27,
+                "Street Name": "Beacon Drive",
+                "oneWay": true,
+                "laneCount": 1,
+                "sidewalk": true
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -56.0,
+                        140.0
+                    ],
+                    [
+                        -56.0,
+                        112.0
+                    ],
+                    [
+                        -56.0,
+                        84.0
+                    ],
+                    [
+                        -0.0,
+                        84.0
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 28,
+                "Street Name": "Driftwood Drive",
+                "oneWay": true,
+                "laneCount": 1,
+                "sidewalk": true
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -0.0,
+                        84.0
+                    ],
+                    [
+                        56.0,
+                        84.0
+                    ],
+                    [
+                        56.0,
+                        112.0
+                    ],
+                    [
+                        56.0,
+                        140.0
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 29,
+                "Street Name": "Summit Street",
+                "oneWay": true,
+                "laneCount": 1,
+                "sidewalk": true
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -56.0,
+                        -140.0
+                    ],
+                    [
+                        -56.0,
+                        -112.0
+                    ],
+                    [
+                        -56.0,
+                        -84.0
+                    ],
+                    [
+                        0.0,
+                        -84.0
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 30,
+                "Street Name": "Glen Drive",
+                "oneWay": true,
+                "laneCount": 1,
+                "sidewalk": true
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        56.0,
+                        -140.0
+                    ],
+                    [
+                        56.0,
+                        -112.0
+                    ],
+                    [
+                        56.0,
+                        -84.0
+                    ],
+                    [
+                        0.0,
+                        -84.0
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 31,
+                "Street Name": "Forest Way",
+                "oneWay": true,
+                "laneCount": 1,
+                "sidewalk": true
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -329.0,
+                        -140.0
+                    ],
+                    [
+                        -280.0,
+                        -140.0
+                    ],
+                    [
+                        -224.0,
+                        -140.0
+                    ],
+                    [
+                        -56.0,
+                        -140.0
+                    ],
+                    [
+                        0.0,
+                        -140.0
+                    ],
+                    [
+                        56.0,
+                        -140.0
+                    ],
+                    [
+                        224.0,
+                        -140.0
+                    ],
+                    [
+                        329.0,
+                        -140.0
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 32,
+                "Street Name": "Knoll Lane",
+                "oneWay": true,
+                "laneCount": 1,
+                "sidewalk": true
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -224.0,
+                        -245.0
+                    ],
+                    [
+                        -224.0,
+                        -140.0
+                    ],
+                    [
+                        -224.0,
+                        -77.0
+                    ],
+                    [
+                        -224.0,
+                        -28.0
+                    ],
+                    [
+                        -224.0,
+                        0.0
+                    ],
+                    [
+                        -224.0,
+                        28.0
+                    ],
+                    [
+                        -224.0,
+                        77.0
+                    ],
+                    [
+                        -224.0,
+                        140.0
+                    ],
+                    [
+                        -224.0,
+                        245.0
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 33,
+                "Street Name": "Dell Court",
+                "oneWay": true,
+                "laneCount": 1,
+                "sidewalk": true
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -329.0,
+                        140.0
+                    ],
+                    [
+                        -280.0,
+                        140.0
+                    ],
+                    [
+                        -224.0,
+                        140.0
+                    ],
+                    [
+                        -56.0,
+                        140.0
+                    ],
+                    [
+                        56.0,
+                        140.0
+                    ],
+                    [
+                        112.0,
+                        140.0
+                    ],
+                    [
+                        224.0,
+                        140.0
+                    ],
+                    [
+                        273.0,
+                        140.0
+                    ],
+                    [
+                        329.0,
+                        140.0
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 34,
+                "Street Name": "Mossy Knoll Drive",
+                "oneWay": true,
+                "laneCount": 1,
+                "sidewalk": true
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        224.0,
+                        245.0
+                    ],
+                    [
+                        224.0,
+                        140.0
+                    ],
+                    [
+                        224.0,
+                        28.0
+                    ],
+                    [
+                        224.0,
+                        0.0
+                    ],
+                    [
+                        224.0,
+                        -28.0
+                    ],
+                    [
+                        224.0,
+                        -70.0
+                    ],
+                    [
+                        224.0,
+                        -140.0
+                    ],
+                    [
+                        224.0,
+                        -245.0
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 35,
+                "Street Name": "Thicket Trail",
+                "oneWay": true,
+                "laneCount": 1,
+                "sidewalk": true
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        329.0,
+                        -140.0
+                    ],
+                    [
+                        329.0,
+                        -70.0
+                    ],
+                    [
+                        329.0,
+                        -0.0
+                    ],
+                    [
+                        329.0,
+                        140.0
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 36,
+                "Street Name": "Acorn Alley",
+                "oneWay": true,
+                "laneCount": 1,
+                "sidewalk": true
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -329.0,
+                        140.0
+                    ],
+                    [
+                        -329.0,
+                        0.0
+                    ],
+                    [
+                        -329.0,
+                        -140.0
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 37,
+                "Street Name": "Maple Grove Drive",
+                "oneWay": true,
+                "laneCount": 1,
+                "sidewalk": true
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -224.0,
+                        -245.0
+                    ],
+                    [
+                        -154.0,
+                        -245.0
+                    ],
+                    [
+                        -0.0,
+                        -245.0
+                    ],
+                    [
+                        154.0,
+                        -245.0
+                    ],
+                    [
+                        224.0,
+                        -245.0
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "fid": 38,
+                "Street Name": "Hazelwood Street",
+                "oneWay": true,
+                "laneCount": 1,
+                "sidewalk": true
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -224.0,
+                        245.0
+                    ],
+                    [
+                        -175.0,
+                        245.0
+                    ],
+                    [
+                        0.0,
+                        245.0
+                    ],
+                    [
+                        112.0,
+                        245.0
+                    ],
+                    [
+                        224.0,
+                        245.0
+                    ]
+                ]
+            }
+        }
+]
+}

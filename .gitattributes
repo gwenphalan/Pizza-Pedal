@@ -1,0 +1,2 @@
+*.exr filter=lfs diff=lfs merge=lfs -text
+Assets/Scenes/Test[[:space:]]Environment.unity filter=lfs diff=lfs merge=lfs -text
